@@ -108,7 +108,7 @@ function getRandomIndexResults() {
   return Math.floor(Math.random() * productArray.length);
 }
 
-// **************************** EVENT HANDLERS ****************************
+// ** EVENT HANDLERS **
 
 function handleClick(event) {
   let clickedImg = event.target.alt;
@@ -133,7 +133,7 @@ function handleClick(event) {
   renderImages();
 }
 
-// **************************** CREATE CHART ****************************
+// ** Chart Creation **
 
 function renderProductChart() {
 
