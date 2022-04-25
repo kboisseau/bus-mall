@@ -24,9 +24,9 @@ let parsedProducts = JSON.parse(RecoveredProducts); // Parses data from local st
 
 // **CONSTRUCTOR **
 
-function Product(name, fileExt = 'jpg') {
-  this.productName = name;
-  this.img = `img/${name}.${fileExt}`;
+function Product(productName, fileExt = 'jpg') {
+  this.productName = productName;
+  this.img = `img/${productName}.${fileExt}`;
   this.clicks = 0;
   this.views = 0;
 
